@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "bb119852-dcb9-4e4b-8767-3edf80f3ada1",
+		"name": "AtualNetwork",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17318561"
+	},
+	"item": [
+		{
+			"name": "request info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7006/main/requestinfo",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7006",
+					"path": [
+						"main",
+						"requestinfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request info",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7006/main/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7006",
+					"path": [
+						"main",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
